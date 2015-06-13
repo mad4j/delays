@@ -11,6 +11,7 @@
 
 #include <cstdio>
 #include <ctime>
+#include <cstdlib>
 
 #include <unistd.h>
 
@@ -25,7 +26,7 @@ void delay(int seconds)
 
 	while (current.tv_sec < threshold) {
 
-		printf("\rdelays: %5lds", threshold-current.tv_sec);
+		printf("\rdelays: %7lds", threshold-current.tv_sec);
 
 		sleep(1);
 		clock_gettime(CLOCK_MONOTONIC, &current);		
@@ -38,8 +39,15 @@ int main(int argc, char** argv)
 {
 
 	setbuf(stdout, NULL);
+
+	if (argc != 2) {
+		printf("usage: %s <secs>\n", argv[0]);
+	}
 	
-	delay(10);
+	int seconds;
+	seconds = strtol(argv[1], 0, 0);
+
+	delay(seconds);
 
 	return 0;
 }
