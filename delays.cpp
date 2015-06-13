@@ -1,12 +1,10 @@
-
-
 /**
  * delays
  * Copyright (c) 2015 Daniele Olmisani
  * 
  * see LICENSE file
  *
- * Compile using: gcc -Wall delays.cpp -o delays
+ * Compile using: gcc -Wall delays.cpp -o delays -lrt
  */ 
 
 #include <cstdio>
