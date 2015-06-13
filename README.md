@@ -4,6 +4,10 @@
 Very simple shell command that delays the execution for a given time.
 It may be used to delay the execution of a script, but it should intent for didactical purporses.
 
+This project will implement:
+* **autotools**: automatic build system [TDB]
+* **Travis-CI**: continous integration system
+
 ## Build
 ```bash
 gcc -Wall delays.cpp -o delays
