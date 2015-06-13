@@ -10,7 +10,7 @@ This project will implement:
 
 ## Build
 ```bash
-gcc -Wall delays.cpp -o delays
+make all && make test
 ```
 
 ## Usage
