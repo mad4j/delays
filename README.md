@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mad4j/delays.svg?branch=master)](https://travis-ci.org/mad4j/delays)
+
 # delays
 Very simple shell command that delays the execution for a given time.
 It may be used to delay the execution of a script, but it should intent for didactical purporses.
