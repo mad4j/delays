@@ -1,3 +1,4 @@
 language: c
 compiler: gcc
+install: sudo apt-get build-essential
 script: make all
