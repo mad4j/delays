@@ -1,4 +1,4 @@
-language: c
+language: cpp
 compiler: gcc
-install: sudo apt-get install build-essential
+#install: sudo apt-get install build-essential
 script: make all
