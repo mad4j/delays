@@ -1,6 +1,6 @@
 
 all:
-	g++ -Wall delays.cpp -o delays
+	(CXX) -Wall delays.cpp -o delays -lrt
 
 clean:
 	rm delays
