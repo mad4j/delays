@@ -1,4 +1,3 @@
 language: cpp
 compiler: gcc
-#install: sudo apt-get install build-essential
-script: make all
+script: make all && make test

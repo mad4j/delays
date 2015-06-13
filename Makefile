@@ -6,4 +6,4 @@ clean:
 	rm delays
 
 test:
-	./delays 10
+	./delays 5
